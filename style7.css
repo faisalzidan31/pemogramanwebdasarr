@@ -1,0 +1,54 @@
+/* Style dasar */
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+     position: relative;
+    }
+
+    /* Gaya menu utama */
+    .menu > li {
+      display: inline-block;
+      background: #ff0000;
+      padding: 10px 20px;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+    }
+
+    .menu > li:hover {
+      background: #b01a1a;
+    }
+
+    /* Submenu level 1 */
+    .menu li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #eeeeee;
+      min-width: 180px;
+    }
+
+    .menu li:hover > ul {
+      display: block;
+    }
+
+    .menu li ul li {
+      display: block;
+      color: #ffffff;
+      padding: 10px;
+      background: #000000;
+    }
+
+    .menu li ul li:hover {
+      background: #ff0000;
+    }
+
+    /* Submenu level 2 */
+    .menu li ul li ul {
+      left: 100%;
+      top: 0;
+    }

@@ -1,0 +1,52 @@
+.navbar {
+	background-color: #ff0000;
+    margin:0;
+    padding:30 px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    padding-left: 0;
+    margin-right: 20px;
+}
+.menu li a{
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    text-decoration:none ;
+    display: inline-block;
+}
+.cover{
+   width: 50px;
+      height: 50px;
+      background: rgb(255, 3, 3);
+      box-shadow: 0 0 10px rgb(0, 0, 0);
+      padding: 50px 30px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 10px;
+
+      
+}
+.buku, .majalah{
+    display: flex;
+    justify-content: space-around;
+}
+.gusstore-official{
+    color: rgb(255, 255, 255);
+}
+.buku-best-seller{
+    color: rgb(255, 255, 255);
+}
+.majalah-best-seller{
+    color: rgb(255, 255, 255);
