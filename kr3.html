@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tampilan Buku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #276b79, #276b79);
+      padding: 40px;
+      margin: 0;
+      color: #333;
+    }
+
+    .book-card {
+      background: #c4c4c4d5;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .book-title {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #000000;
+      text-align: center;
+    }
+
+    .book-content {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .book-image {
+      flex: 1;
+      padding: 10px;
+      min-width: 200px;
+    }
+
+    .book-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .book-details {
+      flex: 2;
+      min-width: 250px;
+    }
+
+    .book-sinopsis {
+      font-size: 14px;
+      color: #3d1313;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .buttons a {
+      padding: 8px 14px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-beli {
+      background-color: #192ab1;
+      color: white;
+    }
+
+    .buttons a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.863);
+    }
+
+    @media (max-width: 600px) {
+      .book-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .buttons {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book-card">
+    <div class="book-title">The Jakarta Post</div>
+    <div class="book-content">
+      <div class="book-image">
+        <img src="kor3.jpg" alt="Cover Buku">
+      </div>
+      <div class="book-details">
+        <div class="book-sinopsis">
+Deskripsi The Jakarta Post / 01 JUL 2025
+
+Informasi Buku:
+Bahasa:English
+Tanggal Rilis: 01 Juli 2025
+Penerbit: Bina Media Tenggara
+Penulis:The Jakarta Post
+        <div class="buttons">
+          <a href="#" class="btn-beli">Beli</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

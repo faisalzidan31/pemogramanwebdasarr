@@ -1,0 +1,97 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 10px 10px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+
+        .top-right a {
+            color: #ffffff;
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #1a1a1a;
+            padding: 10px 0;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            position: relative;
+            margin: 0 15px;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .menu li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            top: 35px;
+            left: 0;
+            list-style: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .menu li:hover ul {
+            display: block;
+        }
+
+        .cover {
+            background-color: #ffffff22;
+            color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+            text-align: center;
+            margin: 10px;
+            flex: 1 1 150px;
+        }
+
+        .buku, .majalah {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 4px solid #fff;
+        }
